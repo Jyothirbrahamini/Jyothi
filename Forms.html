@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>My Form</h1>
+    <form>
+        <div>
+            <label for="fname">First Name*:</label>
+            <input type="text" name="Firstname" id="fname" placeholder="Enter First Name" required minlength="8">
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last Name*:</label>
+            <input type="text" name="Lastname" id="fname" placeholder="Enter Last Name" value="Brahamini" required minlength="8">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email Id: </label>
+            <input type="text" name="Email" id="email" placeholder="Enter Email Id">
+        </div>
+        <br>
+        <div>
+            <label for="job">Job Role: </label>
+            <input type="text" name="jobrole" id="job" placeholder="Enter Job Role">
+        </div>
+        <br>
+        <div>
+            <label for="pw">Password: </label>
+            <input type="password" name="password" id="pw" placeholder="Enter Password">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age </label>
+            <input type="number" name="age" id="age" placeholder="Enter Age">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth </label>
+            <input type="date" name="dob" id="dob" placeholder="Enter Date of Birth">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth </label>
+            <input type="datetime" name="dob" id="dob" placeholder="Enter Date of Birth">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth </label>
+            <input type="datetime-local" name="dob" id="dob" placeholder="Enter Date of Birth">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth </label>
+            <input type="time" name="dob" id="dob" placeholder="Enter Date of Birth">
+        </div>
+            <p>Gender
+                <input type="radio" name="gender" id="rg"><label for="rg">Male</label>
+                <input type="radio" name="gender" id="rg">Female
+               </p>
+            <p>Skills <input type="checkbox" name="skills" value="html" id="c1">Html
+                <input type="checkbox" name="skills" value="css" id="c1">css
+                <input type="checkbox" name="skills" value="js" id="c1">JavaScript</p>
+            <label for="file">Upload file</label>
+            <input type="file" name="Upload file" id="file">
+            <br>
+            <br>
+            <div>
+                <lable for="clr">Choose Color</lable>
+                <input type="color" name="color" id="clr">
+            </div>
+            <br>
+            <label for="">Choose Gender</label>
+            <select name="genderr" id="">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="others">Others</option>
+
+            </select>
+            <p>Choose Vehicle</p>
+            <select name="vehicle" id="" multiple>
+                <optgroup label="bikes">
+                    <option value="br15">R15</option>
+                    <option value="pulsur">Pulsur</option>
+                    <option value="duke">Duke</option>
+                </optgroup>
+                <optgroup label="cars">
+                    <option value="bmw">BMW</option>
+                    <option value="lamborgini">Lamborgini</option>
+                </optgroup>
+            </select>
+            <br>
+            Address:  <textarea name="" id="" cols="10" rows="5" style="height: 10%"></textarea>  
+            <br>
+            <br>
+            <fieldset>
+                <legend>Login Form</legend>
+                <input type="email" name="email" placeholder="enter email" id="">
+                <br><br>
+                <input type="password" name="pswd" placeholder="enter password">
+
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+    </form>
+</body>
+</html>
