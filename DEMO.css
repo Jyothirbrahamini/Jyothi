@@ -1,4 +1,3 @@
-
 *
 {
     box-sizing: border-box;
@@ -22,6 +21,7 @@ body
     align-items: left; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* place-items:center; */
 
 }
 .child
@@ -41,4 +41,5 @@ body
     grid-row-start: 1;
     grid-row-end: 3;
     border-color: black;
+    /* place-self: center; */
 }
